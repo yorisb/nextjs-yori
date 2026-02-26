@@ -52,18 +52,18 @@ const Certifications = () => {
   }, [])
 
   const certifications = [
+        {
+      title: 'Sertifikasi Kompetensi',
+      image: '/assets/img/idnsertif.png',
+      link: '/assets/SERTIFIKASIYORI1.pdf',
+      issuer: 'BNSP',
+      date: '2024'
+    },
     {
       title: 'Introduction to Cisco Software-Defined WAN',
       image: '/assets/img/webinaryori.jpg',
       link: '/assets/webinaryori.pdf',
       issuer: 'Cisco',
-      date: '2024'
-    },
-    {
-      title: 'Sertifikasi Kompetensi',
-      image: '/assets/img/idnsertif.png',
-      link: '/assets/SERTIFIKASIYORI1.pdf',
-      issuer: 'BNSP',
       date: '2024'
     },
     {

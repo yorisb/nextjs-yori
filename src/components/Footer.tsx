@@ -168,14 +168,7 @@ const Footer = () => {
             <p className="text-sm text-monochrome-500">
               &copy; {currentYear} Yori Saepul Barki. All rights reserved.
             </p>
-            <div className="flex gap-6">
-              <Link href="#" className="text-sm text-monochrome-500 hover:text-monochrome-300 transition-colors">
-                Privacy Policy
-              </Link>
-              <Link href="#" className="text-sm text-monochrome-500 hover:text-monochrome-300 transition-colors">
-                Terms of Service
-              </Link>
-            </div>
+
           </div>
         </div>
       </div>

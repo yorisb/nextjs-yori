@@ -15,12 +15,12 @@ const Qualification = () => {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null)
 
   const experiences = [
-    {
-      title: 'IT Support at PT CKL Cargo',
-      logo: '/assets/img/ckl.png',
-      description: 'Managed IT infrastructure for a local retail company in Tasikmalaya. Responsibilities included system maintenance, troubleshooting hardware/software issues, and implementing technology solutions to improve business operations.',
-      date: 'December 2025 - Present',
-      tags: ['IT Support', 'Infrastructure', 'Troubleshooting']
+      {
+      title: 'IT Intern at Right Notebook',
+      logo: '/assets/img/rnlogo.png',
+      description: 'Gained hands-on experience in computer hardware repair, software installation, and customer service at a computer service business. Assisted in troubleshooting various technical issues for clients.',
+      date: 'August 2019 - November 2019',
+      tags: ['Internship', 'Hardware Repair', 'Customer Service']
     },
     {
       title: 'IT Staff at Tasco Minimart',
@@ -30,11 +30,11 @@ const Qualification = () => {
       tags: ['IT Staff', 'System Maintenance', 'Hardware']
     },
     {
-      title: 'IT Intern at Right Notebook',
-      logo: '/assets/img/rnlogo.png',
-      description: 'Gained hands-on experience in computer hardware repair, software installation, and customer service at a computer service business. Assisted in troubleshooting various technical issues for clients.',
-      date: 'August 2019 - November 2019',
-      tags: ['Internship', 'Hardware Repair', 'Customer Service']
+      title: 'IT Support at PT CKL Cargo',
+      logo: '/assets/img/ckl.png',
+      description: 'Managed IT infrastructure for a local retail company in Tasikmalaya. Responsibilities included system maintenance, troubleshooting hardware/software issues, and implementing technology solutions to improve business operations.',
+      date: 'December 2025 - Present',
+      tags: ['IT Support', 'Infrastructure', 'Troubleshooting']
     },
   ]
 
@@ -102,6 +102,7 @@ const Qualification = () => {
 
           {/* Content dengan animasi fade */}
           <div className={`transition-all duration-700 transform ${inView ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+            
             {/* Professional Experience */}
             {activeTab === 'experience' && (
               <div className="space-y-8">

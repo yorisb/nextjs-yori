@@ -16,13 +16,13 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'Stock Opname System for Tasco',
-      image: '/assets/img/SOTASCO.png',
-      description: 'A custom web application developed to streamline the audit process by enabling efficient data upload and management for stock inventory calculations.',
-      tags: ['Web Application', 'Native PHP', 'MySQL', 'TailwindCSS'],
-      link: '#',
+      title: 'E-MJPS: E-Learning Platform',
+      image: '/assets/img/kp.jpg',
+      description: 'A comprehensive web-based learning platform for computer assembly courses, featuring modules, quizzes, assignments, and assessment tools for vocational school students.',
+      tags: ['Web Application', 'CodeIgniter', 'MySQL', 'Bootstrap'],
+      link: 'https://github.com/yorisb/e-mjps',
       category: 'Web Application',
-      year: '2024'
+      year: '2023'
     },
     {
       title: 'Soil Monitoring IoT System',
@@ -34,13 +34,13 @@ const Projects = () => {
       year: '2024'
     },
     {
-      title: 'E-MJPS: E-Learning Platform',
-      image: '/assets/img/kp.jpg',
-      description: 'A comprehensive web-based learning platform for computer assembly courses, featuring modules, quizzes, assignments, and assessment tools for vocational school students.',
-      tags: ['Web Application', 'CodeIgniter', 'MySQL', 'Bootstrap'],
-      link: 'https://github.com/yorisb/e-mjps',
+      title: 'Stock Opname System for Tasco',
+      image: '/assets/img/SOTASCO.png',
+      description: 'A custom web application developed to streamline the audit process by enabling efficient data upload and management for stock inventory calculations.',
+      tags: ['Web Application', 'Native PHP', 'MySQL', 'TailwindCSS'],
+      link: '#',
       category: 'Web Application',
-      year: '2023'
+      year: '2024'
     },
     {
       title: 'Housing Information System – Bumi Tamansari Indah Regency',

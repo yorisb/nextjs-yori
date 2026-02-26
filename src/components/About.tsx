@@ -142,11 +142,11 @@ const About = () => {
             {/* Additional Info */}
             <div className="grid grid-cols-2 gap-4 pt-6">
               <div className="p-4 border border-monochrome-300 dark:border-monochrome-700 hover:bg-monochrome-900 hover:text-monochrome-50 dark:hover:bg-monochrome-50 dark:hover:text-monochrome-900 transition-all duration-300 cursor-pointer">
-                <div className="text-3xl font-bold mb-2">3+</div>
+                <div className="text-3xl font-bold mb-2">1+</div>
                 <div className="text-sm tracking-wider">Years Experience</div>
               </div>
               <div className="p-4 border border-monochrome-300 dark:border-monochrome-700 hover:bg-monochrome-900 hover:text-monochrome-50 dark:hover:bg-monochrome-50 dark:hover:text-monochrome-900 transition-all duration-300 cursor-pointer">
-                <div className="text-3xl font-bold mb-2">10+</div>
+                <div className="text-3xl font-bold mb-2">4+</div>
                 <div className="text-sm tracking-wider">Projects Done</div>
               </div>
             </div>
